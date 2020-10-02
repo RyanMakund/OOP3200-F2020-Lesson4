@@ -48,7 +48,6 @@ private:
     float m_age;
     std::string m_firstName;
     std::string m_lastName;
-float age_{};
 };
 
 #endif //_PERSON_H

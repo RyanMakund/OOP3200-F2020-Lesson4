@@ -43,8 +43,9 @@ void Student::setStudentID(const std::string& value) {
 /**
  * @return void
  */
-void Student::Studies() {
-    std::cout << getFirstName() << "is studying" << std::endl;
+void Student::Studies() const
+{
+    std::cout << getFirstName() << " is studying" << std::endl;
 }
 
 /**
@@ -56,7 +57,8 @@ std::string Student::ToString()
 
     output_string += Person::ToString();
     output_string += "--------------------------------------\n";
-    output_string += "Student ID : " + getStudentID() + "\n";
+    output_string += "Student ID: " + getStudentID() + "\n";
     output_string += "--------------------------------------\n";
-	return "";
+
+	return output_string;
 }

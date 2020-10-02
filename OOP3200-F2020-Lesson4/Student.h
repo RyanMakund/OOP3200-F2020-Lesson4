@@ -30,7 +30,7 @@ std::string getStudentID() const;
  */
 void setStudentID(const std::string& value);
     
-void Studies();
+void Studies() const;
     
 std::string ToString() override;
 private: 

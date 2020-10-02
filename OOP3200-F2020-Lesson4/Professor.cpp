@@ -49,7 +49,7 @@ void Professor::setEmployeeID(const std::string& value)
  * @return void
  */
 void Professor::Teaches() {
-    std::cout << getFirstName() << "is teaching!" << std::endl;
+    std::cout << getFirstName() << " is teaching!" << std::endl;
 }
 
 /**
